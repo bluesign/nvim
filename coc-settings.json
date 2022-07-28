@@ -1,0 +1,18 @@
+{
+    "languageserver": {
+    "cadence": {
+         "trace.server": "verbose",
+
+        "command": "flow",
+        "args": [
+            "cadence",
+            "language-server",
+            "--enable-flow-client=false"
+        ],
+        "filetypes": [
+            "cdc",
+            "cadence"
+        ]
+    }
+    }
+}
